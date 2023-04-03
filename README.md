@@ -1,6 +1,6 @@
 # Alura	
 
-Projeto : Api com os top 10 filmes do portal (IMDB) | Campanha: Imersão Alura JAVA
+Projeto : Api com a lista do top 10 filmes do portal (IMDB) | Campanha: Imersão Alura JAVA
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
