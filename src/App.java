@@ -23,7 +23,8 @@ public class App {
         System.out.println(body);
 
         // Filtar algumas informações da API (título, poster, classificação)
-List<Map<String, String>> listaDeFilmes;
+        var parser = new JsonParser();
+List<Map<String, String>> listaDeFilmes = parser.parse(body);
         // Exibir e manipular as informações coletadas do IMDB
     }
 }
