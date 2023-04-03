@@ -2,4 +2,12 @@
 
 Projeto : Api com os top 250 filmes do portal (IMDB) | Campanha: Imersão Alura JAVA
 
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
+
+# :hammer: Escopo
+
+- `1`: Conectar a API do portal IMDB
+- `2`: Filtar algumas informações da API (título, poster, classificação)
+- `2a`:  Exibir e manipular as informações coletadas do IMDB
+- `3`: Criar o gerador de Stickers (imagens para o WhatsApp)
