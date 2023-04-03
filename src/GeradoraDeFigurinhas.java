@@ -4,6 +4,8 @@ import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 
+import java.awt.Color;
+import java.awt.Font;
 public class GeradoraDeFigurinhas {
     
     
@@ -22,8 +24,13 @@ BufferedImage novaImagem = new BufferedImage(largura, novaAltura, BufferedImage.
 //copiar a imagem original para nova imagem
 Graphics2D graphics = (Graphics2D) novaImagem.getGraphics();
 graphics.drawImage(imagemOriginal, 0, 0, null);
-// escrever frase no sticker
 
+//Configurar a fonte 
+var fonte = new Font(Font.SANS_SERIF, Font.BOLD, 64);
+graphics.setFont(fonte);
+graphics.setColor(Color.YELLOW);
+// escrever frase no sticker
+graphics.drawString("FilmeBÃO", 100, novaAltura - 100);
 
 
 //escrever nova imagem em um arquivo
