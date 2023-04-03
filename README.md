@@ -1,18 +1,13 @@
-## Getting Started
+# Alura	
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Projeto : Api com os top 250 filmes do portal (IMDB) | Campanha: Imersão Alura JAVA
 
-## Folder Structure
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+# :hammer: Escopo
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- `1`: Conectar a API do portal IMDB
+- `2`: Filtar algumas informações da API (título, poster, classificação)
+- `2a`:  Exibir e manipular as informações coletadas do IMDB
+- `3`: Criar o gerador de Stickers (imagens para o WhatsApp)
